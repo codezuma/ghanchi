@@ -18,53 +18,54 @@ export default function Home() {
           skilled team, we ensure that your printing needs are met with precision professionalism. Whether it's for
           personal or business use, trust Rajsuri Print and pack to bring your ideals to life with clarity and fineness.
         </div>
-        <div className="mt-5 grid grid-cols-2 gap-2 rounded-md h-[90vh] w-[100%]">
+        <div className="mt-5 grid grid-cols-2 gap-2 rounded-md w-[100%]">
 
           <div className="p-2 flex flex-col justify-start items-center">
             <div className="bg-rose-500 rounded-md">
-              <img src="/public/coin-in-hand.png" className="object-cover h-28 w-28" alt="" />
+              <img src="/coin-in-hand.png" className="object-cover h-36 w-36" alt="" />
             </div>
-            <div className="font-normal text-xl text-center mt-2">Years Of Excellence</div>
+            <div className="font-normal text-center mt-2">Years Of Excellence</div>
           </div>
           <div className="p-2 flex flex-col justify-start items-center">
             <div className="bg-rose-500 rounded-md">
-              <img src="/public/coin-in-hand.png" className="object-cover h-28 w-28" alt="" />
+              <img src="/coin-in-hand.png" className="object-cover h-36 w-36" alt="" />
             </div>
-            <div className="font-normal text-xl text-center mt-2">Modern & Latest Design</div>
+            <div className="font-normal text-center mt-2">Modern & Latest Design</div>
           </div>
 
           <div className=" p-2 flex flex-col justify-start items-center">
             <div className="bg-rose-500 rounded-md">
-              <img src="/public/coin-in-hand.png" className="object-cover h-28 w-28" alt="" />
+              <img src="/coin-in-hand.png" className="object-cover h-36 w-36" alt="" />
             </div>
-            <div className="font-normal text-xl text-center mt-2">Clients & Network</div>
+            <div className="font-normal text-center mt-2">Clients & Network</div>
           </div>
           <div className=" p-2 flex flex-col justify-start items-center">
             <div className="bg-rose-500 rounded-md">
-              <img src="/public/coin-in-hand.png" className="object-cover h-28 w-28" alt="" />
+              <img src="/coin-in-hand.png" className="object-cover h-36 w-36" alt="" />
             </div>
             <div className="font-normal text-center mt-2">Most Affordable Prices/Rates</div>
           </div>
 
-          <div className="p-2">
-            <div className="bg-rose-500 size-[13rem] rounded-md">
-              <img src="/public/coin-in-hand.png" className="object-cover h-28 w-28" alt="" />
+          <div className=" p-2 flex flex-col justify-start items-center">
+            <div className="bg-rose-500 rounded-md">
+              <img src="/coin-in-hand.png" className="object-cover h-36 w-36" alt="" />
             </div>
-            <div className="font-normal text-xl text-center mt-2">Best Quality Printing</div>
+            <div className="font-normal text-center mt-2">Best Quality Printing</div>
           </div>
-          <div className=" p-2">
-            <div className="bg-rose-500 size-[13rem] rounded-md">
-              <img src="/public/coin-in-hand.png" className="object-cover h-28 w-28" alt="" />
+          <div className=" p-2 flex flex-col justify-start items-center">
+            <div className="bg-rose-500 rounded-md">
+              <img src="/coin-in-hand.png" className="object-cover h-36 w-36" alt="" />
             </div>
-            <div className="font-normal text-xl text-center mt-2">Highly Experienced Staff</div>
+            <div className="font-normal text-center mt-2">Highly Experienced Staff</div>
           </div>
 
         </div>
       </div>
 
       {/* products section */}
-      <div className="">
-        <div className="bg-amber-200 mt-14 h-[30vh]">hgg</div>
+      <div className="w-full">
+        {/* keep margin as figma */}
+        <div className="bg-amber-200 mt-14 w-full h-[30vh]">hgg</div>
       </div>
 
       {/* client review pink section */}
