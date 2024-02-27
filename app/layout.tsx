@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-        <h1>hjdgqdgqgdoq</h1>
+        <h1 className="bg-sky-950 w-full text-center text-2xl text-lime-200 h-[10vh] ">Navbar</h1>
         {children}
       </body>
     </html>
