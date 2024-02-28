@@ -136,7 +136,7 @@ export default function Home() {
               <img src="/item33.svg" className="z-20 w-48" alt="" />
               <img src="/item31.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
-            <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center gap-1">
+            <div className="py-2 mt-[-2rem] bg-rose-500 w-60 z-30 rounded-md flex justify-center items-center gap-1">
               <p className="text-slate-50 text-lg font-semibold text-center">PRINTED SHOPPING BAGS</p>
             </div>
             <p className="text-center mt-3 font-medium max-w-96">
@@ -152,26 +152,26 @@ export default function Home() {
 
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
-            <div className="flex w-56 place-self-center">
-              <img src="/item01.svg" className="p-2 z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item02.svg" className="p-2 z-20 w-48" alt="" />
-              <img src="/item03.svg" className="p-2 z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
+            <div className="flex w-56items-center justify-center">
+              
+              <img src="/itemsingle.svg" className="p-2 z-20 w-48" alt="" />
+             
             </div>
-            <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
-              <p className="text-slate-50 text-lg font-semibold text-center">Hospital Files</p>
+            <div className="py-2 mt-[-1rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
+              <p className="text-slate-50 text-lg font-semibold text-center">Packaging Box Printing</p>
             </div>
-            <p className="text-center mt-3 font-medium max-w-96">
-              We excel in printing various types of Patient Report Files, including textured,
-              embossed and UV Files, Catering to divers preferences and needs.
+            <p className="text-center mt-5 font-medium max-w-96">
+            We also handle printing for packaging boxes, of fering customized solutions tomeet the banding and packaging needs
+            of our clients.
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+            <div className="py-2 px-5 mt-9 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
               <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
-            <div className="flex w-56 place-self-center">
+            <div className="flex w-56 items-center justify-center">
               <img src="/item52.svg" className="p-2 z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
               <img src="/item53.svg" className="p-2 z-20 w-48" alt="" />
               <img src="/item51.svg" className="p-2 z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
