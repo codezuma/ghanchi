@@ -16,11 +16,13 @@ export default function Home() {
           </AspectRatio>
         </div>
         <div className="text-justify font-medium tracking-tight max-w-[70%] w-full mx-auto">
-          Rajsuri Print and Pack since 2002,Your one-step destination for premium printing services. Specialization in a wide range of products including
+          {
+            `Rajsuri Print and Pack since 2002,Your one-step destination for premium printing services. Specialization in a wide range of products including
           HospitalFiles, Amantran Patrikas, New Year Calendars, X-ray MRI Covers, Printed Shopping bags, box prints,
           and much more, We are commited to delivering exceptional quality and craftsmanship. With our state-of-the-art-technology and
           skilled team, we ensure that your printing needs are met with precision professionalism. Whether it's for
-          personal or business use, trust Rajsuri Print and pack to bring your ideals to life with clarity and fineness.
+          personal or business use, trust Rajsuri Print and pack to bring your ideals to life with clarity and fineness.`
+          }
         </div>
         <div className="mt-5 grid px-2 grid-cols-2 gap-x-2 gap-y-2 rounded-md w-full md:grid-cols-3">
 
@@ -195,8 +197,10 @@ export default function Home() {
         <h1 className="mt-10 text-xl text-slate-50 font-semibold">What our clients are saying?</h1>
         <img src="/teamwork.png" className="h-44 w-72" alt="" />
         <h3 className="mt-1 text-center text-slate-50 max-w-[70%]">
-          “Rajsuri Print has been our go-to for all printing needs at Choudhary Bhupendra Hospital. From hospital files to CT MRI
-          covers and marketing materials, their quality and reliability have been outstanding. Highly Recommended!
+          {
+            `Rajsuri Print has been our go-to for all printing needs at Choudhary Bhupendra Hospital. From hospital files to CT MRI
+          covers and marketing materials, their quality and reliability have been outstanding. Highly Recommended!`
+          }
         </h3>
         <div className="text-white text-center my-2">
           <p className="text-sm font-semibold">-Dhukaram Choudhary</p>
