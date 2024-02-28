@@ -27,39 +27,39 @@ export default function Home() {
         <div className="mt-5 grid px-2 grid-cols-2 gap-x-2 gap-y-2 rounded-md w-full md:grid-cols-3">
 
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 grid size-36 rounded-md p-2 shadow-lg">
+            <div className="bg-rose-500 grid size-32 rounded-md p-2 shadow-lg">
               <img src="/20+.svg" className="place-self-center h-20 w-20" alt="" />
             </div>
-            <p className="font-medium text-center mt-2 w-20">Years Of Excellence</p>
+            <p className="font-medium text-center mt-2">Years Of Excellence</p>
           </div>
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 size-36 grid shadow-lg">
+            <div className="bg-rose-500 rounded-md p-2 size-32 grid shadow-lg">
               <img src="/Design.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Modern & Latest Design</p>
           </div>
 
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 size-36 grid shadow-lg">
+            <div className="bg-rose-500 rounded-md p-2 size-32 grid shadow-lg">
               <img src="/1000+.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Clients & Network</p>
           </div>
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 grid size-36 shadow-lg">
+            <div className="bg-rose-500 rounded-md p-2 grid size-32 shadow-lg">
               <img src="/coin-in-hand.png" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Most Affordable Prices/Rates</p>
           </div>
 
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 si grid size-36 shadow-lg">
+            <div className="bg-rose-500 rounded-md p-2 si grid size-32 shadow-lg">
               <img src="/Bestseller.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Best Quality Printing</p>
           </div>
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 grid size-36 shadow-lg">
+            <div className="bg-rose-500 rounded-md p-2 grid size-32 shadow-lg">
               <img src="/Popularman.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Highly Experienced Staff</p>
