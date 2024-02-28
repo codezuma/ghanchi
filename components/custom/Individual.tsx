@@ -23,10 +23,10 @@ const Individual = ({
             </div>
             <p className='px-4'>{para}</p>
             <p className='font-semibold text-white text-center bg-[#002246] py-2 my-6'>SAMPLES</p>
-            <div className='flex w-full overflow-hidden justify-between items-center'>
-                <img className='w-full' src={img[0]} alt="" />
-                <img className='w-full' src={img[1]} alt="" />
-                <img className='w-full' src={img[2]} alt="" />
+            <div className='flex w-full lg:max-w-[50%] lg:mx-auto overflow-hidden justify-between items-center'>
+                <img className='h-44 w-32 lg:h-60 lg:w-44' src={img[0]} alt="" />
+                <img className='h-56 w-36 lg:h-64 lg:w-56' src={img[1]} alt="" />
+                <img className='h-44 w-32 lg:h-60 lg:w-44' src={img[2]} alt="" />
             </div>
         </div>
     )

@@ -49,7 +49,7 @@ const Nav = () => {
 
                         </li>
                         <li className='flex items-center text-white gap-3'>
-                            <img src="/About.png" className='size-7' alt="" /> <p>About Us</p>
+                            <img src="/About.png" className='size-7' alt="" /> <Link className='text-xl' href='/about'>About Us</Link>
                         </li>
                     </ul>
                 </div>
@@ -67,17 +67,17 @@ const Nav = () => {
                                             <AccordionItem value="item-1">
                                                 <AccordionTrigger className='flex justify-start'><img src="/products.png" className='mr-3 size-6 text-3xl font-semibold' alt="" /><p className='text-2xl'>Our Products</p></AccordionTrigger>
                                                 <AccordionContent className='flex flex-col ml-8'>
-                                                    <Link className='text-xl' href={'/hospitals'}>- Hospital files</Link>
-                                                    <Link className='text-xl' href='/'>- Aamantran Patrikas</Link>
-                                                    <Link className='text-xl' href={'/'}>- X-ray, MRI Covers</Link>
-                                                    <Link className='text-xl' href={'/'}>- Printed Shopping Bags</Link>
-                                                    <Link className='text-xl' href={'/'}>- Packing Box Printing</Link>
+                                                    <Link className='text-lg' href={'/hospitals'}>- Hospital files</Link>
+                                                    <Link className='text-lg' href='/'>- Aamantran Patrikas</Link>
+                                                    <Link className='text-lg' href={'/'}>- X-ray, MRI Covers</Link>
+                                                    <Link className='text-lg' href={'/'}>- Printed Shopping Bags</Link>
+                                                    <Link className='text-lg' href={'/'}>- Packing Box Printing</Link>
                                                 </AccordionContent>
                                             </AccordionItem>
                                         </Accordion>
                                     </li>
                                     <li className='flex items-center'><img src="/About.png" className='mr-3 text-3xl font-semibold size-6' alt="" />
-                                        <p className='text-3xl'>About Us</p></li>
+                                        <Link className='text-3xl' href='/about'>About Us</Link></li>
                                 </ul>
                             </div>
                         </DialogContent>
