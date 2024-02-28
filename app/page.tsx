@@ -10,7 +10,7 @@ export default function Home() {
         <img className="w-full max-w-[50%] mx-auto" src="/homebanerimg.png" />
         <h1 className="text-center text-2xl font-semibold tracking-wider"> Welcome to </h1>
         <h1 className="text-center text-red-800 font-semibold text-2xl tracking-wider"> RAJSURI PRINT & PACK </h1>
-        <div className="my-4 w-full max-w-[70%] mx-auto">
+        <div className="my-4 max-w-[90%] mx-auto">
           <AspectRatio className='border' ratio={16 / 9}>
             <iframe className='w-full h-full' src="https://www.youtube.com/embed/ihPTNp7370s" title="sumu - apart | Lo-Fi Hip Hop | NCS - Copyright Free Music" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </AspectRatio>
@@ -88,8 +88,8 @@ export default function Home() {
               We excel in printing various types of Patient Report Files, including textured,
               embossed and UV Files, Catering to divers preferences and needs.
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center">
-              <p className="text-slate-50 font-medium">SAMPLES </p>
+            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+              <p className="text-slate-50 font-medium">SAMPLES </p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
@@ -106,8 +106,8 @@ export default function Home() {
               We’re experts in printing Aamantran  Patrikas, especially those for temple
               inaugurations, any social events, etc .
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center">
-              <p className="text-slate-50 font-medium">SAMPLES</p>
+            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
@@ -117,15 +117,15 @@ export default function Home() {
               <img src="/item22.svg" className="z-20 w-48" alt="" />
               <img src="/item23.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
-            <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
+            <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center gap-1">
               <p className="text-slate-50 text-lg font-semibold text-center">X-RAY/ MRI Covers</p>
             </div>
             <p className="text-center mt-3 font-medium max-w-96">
               We also specialize in printing X-ray and MRI covers, ensuring quality and
               precision for medical imaging needs.
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center">
-              <p className="text-slate-50 font-medium">SAMPLES</p>
+            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
@@ -136,7 +136,7 @@ export default function Home() {
               <img src="/item33.svg" className="z-20 w-48" alt="" />
               <img src="/item31.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
-            <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
+            <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center gap-1">
               <p className="text-slate-50 text-lg font-semibold text-center">PRINTED SHOPPING BAGS</p>
             </div>
             <p className="text-center mt-3 font-medium max-w-96">
@@ -144,8 +144,8 @@ export default function Home() {
               business including retail stores, hospitals, and brands looking to promote their
               products and services.
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center">
-              <p className="text-slate-50 font-medium">SAMPLES</p>
+            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
@@ -164,8 +164,8 @@ export default function Home() {
               We excel in printing various types of Patient Report Files, including textured,
               embossed and UV Files, Catering to divers preferences and needs.
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center">
-              <p className="text-slate-50 font-medium">SAMPLES</p>
+            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
@@ -183,8 +183,8 @@ export default function Home() {
               We also handle printing of Calendars, offering customized solutions to meet the banding and packaging needs
               of our clients.
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center">
-              <p className="text-slate-50 font-medium">SAMPLES</p>
+            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
           </div>
 
