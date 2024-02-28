@@ -7,15 +7,15 @@ export default function Home() {
     <>
       <div className="containerMod p-4">
 
-        <img className="w-full max-w-[50%]" src="/homebanerimg.png" />
+        <img className="w-full max-w-[50%] mx-auto" src="/homebanerimg.png" />
         <h1 className="text-center text-2xl font-semibold tracking-wider"> Welcome to </h1>
         <h1 className="text-center text-red-800 font-semibold text-2xl tracking-wider"> RAJSURI PRINT & PACK </h1>
-        <div className="my-4 w-full max-w-[70%]">
+        <div className="my-4 w-full max-w-[70%] mx-auto">
           <AspectRatio className='border' ratio={16 / 9}>
             <iframe className='w-full h-full' src="https://www.youtube.com/embed/ihPTNp7370s" title="sumu - apart | Lo-Fi Hip Hop | NCS - Copyright Free Music" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </AspectRatio>
         </div>
-        <div className="text-justify font-medium tracking-tight max-w-[70%]">
+        <div className="text-justify font-medium tracking-tight max-w-[70%] w-full mx-auto">
           Rajsuri Print and Pack since 2002,Your one-step destination for premium printing services. Specialization in a wide range of products including
           HospitalFiles, Amantran Patrikas, New Year Calendars, X-ray MRI Covers, Printed Shopping bags, box prints,
           and much more, We are commited to delivering exceptional quality and craftsmanship. With our state-of-the-art-technology and
