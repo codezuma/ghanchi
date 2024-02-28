@@ -77,9 +77,9 @@ export default function Home() {
 
           <div className="mt-3 w-full flex flex-col align-middle items-center">
             <div className="flex w-56 place-self-center">
-              <img src="/item01.svg" className="p-2 z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item02.svg" className="p-2 z-20 w-48" alt="" />
-              <img src="/item03.svg" className="p-2 z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
+              <img src="/item01.svg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
+              <img src="/item02.svg" className="z-20 w-48" alt="" />
+              <img src="/item03.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
             <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
               <p className="text-slate-50 text-lg font-semibold text-center">Hospital Files</p>
@@ -95,9 +95,9 @@ export default function Home() {
 
           <div className="mt-3 w-full flex flex-col align-middle items-center">
             <div className="flex w-56 place-self-center">
-              <img src="/item11.svg" className="p-2 z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item12.svg" className="p-2 z-20 w-48" alt="" />
-              <img src="/item13.svg" className="p-2 z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
+              <img src="/item11.svg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
+              <img src="/item12.svg" className="z-20 w-48" alt="" />
+              <img src="/item13.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
             <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
               <p className="text-slate-50 text-lg font-semibold text-center">Amantran Patrikas</p>
@@ -113,9 +113,9 @@ export default function Home() {
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
             <div className="flex w-56 place-self-center">
-              <img src="/item21.svg" className="p-2 z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item22.svg" className="p-2 z-20 w-48" alt="" />
-              <img src="/item23.svg" className="p-2 z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
+              <img src="/item21.svg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
+              <img src="/item22.svg" className="z-20 w-48" alt="" />
+              <img src="/item23.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
             <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
               <p className="text-slate-50 text-lg font-semibold text-center">X-RAY/ MRI Covers</p>
@@ -132,9 +132,9 @@ export default function Home() {
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
             <div className="flex w-56 place-self-center">
-              <img src="/item32.svg" className="p-2 z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item33.svg" className="p-2 z-20 w-48" alt="" />
-              <img src="/item31.svg" className="p-2 z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
+              <img src="/item32.svg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
+              <img src="/item33.svg" className="z-20 w-48" alt="" />
+              <img src="/item31.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
             <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
               <p className="text-slate-50 text-lg font-semibold text-center">PRINTED SHOPPING BAGS</p>
