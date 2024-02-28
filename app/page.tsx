@@ -5,17 +5,17 @@ import { AspectRatio } from "@/components/ui/aspect-ratio"
 export default function Home() {
   return (
     <>
-      <div className="containerMod p-4">
+      <div className="containerMod p-4 mb-10">
 
-        <img className="w-full max-w-[50%] mx-auto" src="/homebanerimg.png" />
+        <img className="w-full lg:w-[50%] mx-auto my-10" src="/homebanerimg.png" />
         <h1 className="text-center text-2xl font-semibold tracking-wider"> Welcome to </h1>
-        <h1 className="text-center text-red-800 font-semibold text-2xl tracking-wider"> RAJSURI PRINT & PACK </h1>
+        <h1 className="text-center text-red-800 font-semibold text-2xl tracking-wider mb-10"> RAJSURI PRINT & PACK </h1>
         <div className="my-4 max-w-[90%] mx-auto">
           <AspectRatio className='border' ratio={16 / 9}>
             <iframe className='w-full h-full' src="https://www.youtube.com/embed/ihPTNp7370s" title="sumu - apart | Lo-Fi Hip Hop | NCS - Copyright Free Music" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </AspectRatio>
         </div>
-        <div className="text-justify font-medium tracking-tight max-w-[70%] w-full mx-auto">
+        <div className="text-justify font-medium tracking-tight lg:max-w-[70%] w-full mx-auto">
           {
             `Rajsuri Print and Pack since 2002,Your one-step destination for premium printing services. Specialization in a wide range of products including
           HospitalFiles, Amantran Patrikas, New Year Calendars, X-ray MRI Covers, Printed Shopping bags, box prints,
@@ -27,39 +27,39 @@ export default function Home() {
         <div className="mt-5 grid px-2 grid-cols-2 gap-x-2 gap-y-2 rounded-md w-full md:grid-cols-3">
 
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 grid size-36 rounded-md p-2">
+            <div className="bg-rose-500 grid size-36 rounded-md p-2 shadow-lg">
               <img src="/20+.svg" className="place-self-center h-20 w-20" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Years Of Excellence</p>
           </div>
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 size-36 grid">
+            <div className="bg-rose-500 rounded-md p-2 size-36 grid shadow-lg">
               <img src="/Design.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Modern & Latest Design</p>
           </div>
 
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 size-36 grid">
+            <div className="bg-rose-500 rounded-md p-2 size-36 grid shadow-lg">
               <img src="/1000+.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Clients & Network</p>
           </div>
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 grid size-36">
+            <div className="bg-rose-500 rounded-md p-2 grid size-36 shadow-lg">
               <img src="/coin-in-hand.png" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Most Affordable Prices/Rates</p>
           </div>
 
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 si grid size-36">
+            <div className="bg-rose-500 rounded-md p-2 si grid size-36 shadow-lg">
               <img src="/Bestseller.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Best Quality Printing</p>
           </div>
           <div className="flex flex-col justify-start items-center">
-            <div className="bg-rose-500 rounded-md p-2 grid size-36">
+            <div className="bg-rose-500 rounded-md p-2 grid size-36 shadow-lg">
               <img src="/Popularman.svg" className="h-20 w-20 place-self-center" alt="" />
             </div>
             <p className="font-medium text-center mt-2 w-20">Highly Experienced Staff</p>
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       {/* products section */}
-      <div className='containerMod'>
+      <div className='containerMod mb-10'>
         <p className="font-semibold text-center">WE PROVIDE</p>
         <p className="font-bold text-center text-[#880026]">OUR PRODUCTS</p>
 
@@ -152,17 +152,15 @@ export default function Home() {
 
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
-            <div className="flex w-56items-center justify-center">
-              
+            <div className="flex w-56 items-center justify-center">
               <img src="/itemsingle.svg" className="p-2 z-20 w-48" alt="" />
-             
             </div>
             <div className="py-2 mt-[-1rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
               <p className="text-slate-50 text-lg font-semibold text-center">Packaging Box Printing</p>
             </div>
             <p className="text-center mt-5 font-medium max-w-96">
-            We also handle printing for packaging boxes, of fering customized solutions tomeet the banding and packaging needs
-            of our clients.
+              We also handle printing for packaging boxes, of fering customized solutions tomeet the banding and packaging needs
+              of our clients.
             </p>
             <div className="py-2 px-5 mt-9 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
               <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
@@ -193,7 +191,7 @@ export default function Home() {
 
       {/* client review pink section */}
 
-      <div className="bg-rose-500  w-[100%] mt-20 flex flex-col justify-start items-center">
+      <div className="bg-rose-500  w-[100%] mt-20 flex flex-col justify-start items-center py-8">
         <h1 className="mt-10 text-xl text-slate-50 font-semibold">What our clients are saying?</h1>
         <img src="/teamwork.png" className="h-44 w-72" alt="" />
         <h3 className="mt-1 text-center text-slate-50 max-w-[70%]">
@@ -205,6 +203,9 @@ export default function Home() {
         <div className="text-white text-center my-2">
           <p className="text-sm font-semibold">-Dhukaram Choudhary</p>
           <p className="text-sm">(Managing Director of CBH Hospital, Bhinmal)</p>
+        </div>
+        <div className='px-8 self-end'>
+          <ArrowRightIcon color='white' className='self-end' />
         </div>
       </div>
 
