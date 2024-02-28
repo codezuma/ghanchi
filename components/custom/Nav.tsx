@@ -39,7 +39,7 @@ const Nav = () => {
                                     <p>Our Products</p>
                                 </PopoverTrigger>
                                 <PopoverContent className='flex flex-col'>
-                                    <Link className='text-xl' href={'/'}>- Hospital files</Link>
+                                    <Link className='text-xl' href={'/hospitals'}>- Hospital files</Link>
                                     <Link className='text-xl' href='/'>- Aamantran Patrikas</Link>
                                     <Link className='text-xl' href={'/'}>- X-ray, MRI Covers</Link>
                                     <Link className='text-xl' href={'/'}>- Printed Shopping Bags</Link>
@@ -67,7 +67,7 @@ const Nav = () => {
                                             <AccordionItem value="item-1">
                                                 <AccordionTrigger className='flex justify-start'><img src="/products.png" className='mr-3 size-6 text-3xl font-semibold' alt="" /><p className='text-2xl'>Our Products</p></AccordionTrigger>
                                                 <AccordionContent className='flex flex-col ml-8'>
-                                                    <Link className='text-xl' href={'/'}>- Hospital files</Link>
+                                                    <Link className='text-xl' href={'/hospitals'}>- Hospital files</Link>
                                                     <Link className='text-xl' href='/'>- Aamantran Patrikas</Link>
                                                     <Link className='text-xl' href={'/'}>- X-ray, MRI Covers</Link>
                                                     <Link className='text-xl' href={'/'}>- Printed Shopping Bags</Link>
