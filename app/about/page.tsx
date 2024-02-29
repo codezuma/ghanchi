@@ -6,7 +6,7 @@ const Individual = () => {
   return (
     <div className=''>
       <p className='bg-[#FB2963] py-2 text-center tracking-wide text-2xl font-semibold text-white'>ABOUT US</p>
-      <div className="my-4 w-full max-w-[50%] lg:containerMod mx-auto">
+      <div className="my-4 w-full max-w-[80%] lg:containerMod mx-auto">
         <AspectRatio className='border' ratio={16 / 9}>
           hello
         </AspectRatio>

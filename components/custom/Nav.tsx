@@ -40,10 +40,10 @@ const Nav = () => {
                                 </PopoverTrigger>
                                 <PopoverContent className='flex flex-col'>
                                     <Link className='text-xl' href={'/hospitals'}>- Hospital files</Link>
-                                    <Link className='text-xl' href='/'>- Aamantran Patrikas</Link>
-                                    <Link className='text-xl' href={'/'}>- X-ray, MRI Covers</Link>
-                                    <Link className='text-xl' href={'/'}>- Printed Shopping Bags</Link>
-                                    <Link className='text-xl' href={'/'}>- Packing Box Printing</Link>
+                                    <Link className='text-xl' href='/amantran'>- Aamantran Patrikas</Link>
+                                    <Link className='text-xl' href={'/x-ray'}>- X-ray, MRI Covers</Link>
+                                    <Link className='text-xl' href={'/printing'}>- Printed Shopping Bags</Link>
+                                    <Link className='text-xl' href={'/printing'}>- Packing Box Printing</Link>
                                 </PopoverContent>
                             </Popover>
 
@@ -68,10 +68,10 @@ const Nav = () => {
                                                 <AccordionTrigger className='flex justify-start'><img src="/products.png" className='mr-3 size-6 text-3xl font-semibold' alt="" /><p className='text-2xl'>Our Products</p></AccordionTrigger>
                                                 <AccordionContent className='flex flex-col ml-8'>
                                                     <Link className='text-lg' href={'/hospitals'}>- Hospital files</Link>
-                                                    <Link className='text-lg' href='/'>- Aamantran Patrikas</Link>
-                                                    <Link className='text-lg' href={'/'}>- X-ray, MRI Covers</Link>
-                                                    <Link className='text-lg' href={'/'}>- Printed Shopping Bags</Link>
-                                                    <Link className='text-lg' href={'/'}>- Packing Box Printing</Link>
+                                                    <Link className='text-lg' href='/amantran'>- Aamantran Patrikas</Link>
+                                                    <Link className='text-lg' href={'/x-ray'}>- X-ray, MRI Covers</Link>
+                                                    <Link className='text-lg' href={'/printing'}>- Printed Shopping Bags</Link>
+                                                    <Link className='text-lg' href={'/printing'}>- Packing Box Printing</Link>
                                                 </AccordionContent>
                                             </AccordionItem>
                                         </Accordion>
