@@ -1,6 +1,8 @@
 import { ArrowRightIcon } from '@radix-ui/react-icons'
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -12,7 +14,7 @@ export default function Home() {
         <h1 className="text-center text-red-800 font-semibold text-2xl tracking-wider mb-10"> RAJSURI PRINT & PACK </h1>
         <div className="my-4 max-w-[90%] mx-auto">
           <AspectRatio className='border' ratio={16 / 9}>
-            <iframe className='w-full h-full' src="https://www.youtube.com/embed/ihPTNp7370s" title="sumu - apart | Lo-Fi Hip Hop | NCS - Copyright Free Music" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <iframe className='w-full h-full' src="https://youtu.be/SHNQwkjSZTM?si=HW7aOvQC7OCR76CI" title="sumu - apart | Lo-Fi Hip Hop | NCS - Copyright Free Music" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </AspectRatio>
         </div>
         <div className="text-justify font-medium tracking-tight lg:max-w-[70%] w-full mx-auto">
@@ -88,9 +90,12 @@ export default function Home() {
               We excel in printing various types of Patient Report Files, including textured,
               embossed and UV Files, Catering to divers preferences and needs.
             </p>
+            <Link className='text-xl' href={'/hospitals'}>
             <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
               <p className="text-slate-50 font-medium">SAMPLES </p> <img src="/arro.png" alt="" />
             </div>
+            </Link>
+            
           </div>
 
           <div className="mt-3 w-full flex flex-col align-middle items-center">
@@ -124,9 +129,12 @@ export default function Home() {
               We also specialize in printing X-ray and MRI covers, ensuring quality and
               precision for medical imaging needs.
             </p>
+            <Link className='text-xl' href={'/x-ray'}>
             <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
               <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
+            </Link>
+           
           </div>
 
 
@@ -136,7 +144,7 @@ export default function Home() {
               <img src="/item33.svg" className="z-20 w-48" alt="" />
               <img src="/item31.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
-            <div className="py-2 mt-[-2rem] bg-rose-500 w-60 z-30 rounded-md flex justify-center items-center gap-1">
+            <div className="py-2 mt-[-2rem] bg-rose-500 w-[19rem] z-30 rounded-md flex justify-center items-center gap-1">
               <p className="text-slate-50 text-lg font-semibold text-center">PRINTED SHOPPING BAGS</p>
             </div>
             <p className="text-center mt-3 font-medium max-w-96">
@@ -144,9 +152,12 @@ export default function Home() {
               business including retail stores, hospitals, and brands looking to promote their
               products and services.
             </p>
+            <Link className='text-xl' href={'/printing'}>
             <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
               <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
+            </Link>
+           
           </div>
 
 
@@ -155,7 +166,7 @@ export default function Home() {
             <div className="flex w-56 items-center justify-center">
               <img src="/itemsingle.svg" className="p-2 z-20 w-48" alt="" />
             </div>
-            <div className="py-2 mt-[-1rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
+            <div className="py-2 mt-[-1rem] bg-rose-500 w-60 z-30 rounded-md flex justify-center items-center">
               <p className="text-slate-50 text-lg font-semibold text-center">Packaging Box Printing</p>
             </div>
             <p className="text-center mt-5 font-medium max-w-96">
@@ -181,9 +192,12 @@ export default function Home() {
               We also handle printing of Calendars, offering customized solutions to meet the banding and packaging needs
               of our clients.
             </p>
+            <Link className='text-xl' href={'/calendars'}>
             <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
               <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
             </div>
+            </Link>
+            
           </div>
 
         </div>

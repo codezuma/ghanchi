@@ -26,11 +26,14 @@ const Nav = () => {
     return (
         <div className='bg-[#002246]'>
             <div className='flex px-2 py-4 justify-between bg-[#002246] p-3 z-50 containerMod'>
+                <Link href={'/'}>
                 <img src="/logo.png" alt="" />
+                </Link>
+                
                 <div className='hidden md:block'>
                     <ul className='flex items-center gap-3'>
                         <li className='flex items-center text-white gap-3'>
-                            <img src="/Home.png" className='size-7' alt="" /> <p>Home</p>
+                            <img src="/Home.png" className='size-7' alt="" /> <Link href={'/'}><p>Home</p></Link> 
                         </li>
                         <li className='flex items-center text-white gap-3'>
                             <img src="/products.png" className='size-7' alt="" />
