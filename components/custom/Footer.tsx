@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -16,10 +17,18 @@ const Footer = () => {
 
         <div className="w-full mt-9 flex justify-center items-center">
           <div className="bg-slate-50 w-[80%] max-w-[250px] rounded-sm h-16 flex items-center justify-evenly ">
-            <img src="Facebook.svg" className="h-11 w-11 place-self-center" alt="" />
-            <img src="LinkedIn.svg" className="h-11 w-11 place-self-center" alt="" />
-            <img src="Pinterest.svg" className="h-11 w-11 place-self-center" alt="" />
-            <img src="Twitter.svg" className="h-11 w-11 place-self-center" alt="" />
+            <Link href='https://www.instagram.com/rajsuriprint.in?igsh=bG5qZGU5dGVjbGNv'>
+              <img src="instagram.png" className="h-11 w-11 place-self-center" alt="" />
+            </Link>
+            <Link href='https://m.indiamart.com/raj-suri-print-pack/'>
+              <img src="indiamart.svg" className="h-11 w-11 place-self-center" alt="" />
+            </Link>
+            <Link href={'https://youtube.com/@RajsuriPrint?si=VRhU_YZ783pbcYr4'}>
+              <img src="youtube.svg" className="h-11 w-11 place-self-center" alt="" />
+            </Link>
+            <Link href={''}>
+              <img src="whatsapp.svg" className="h-11 w-11 place-self-center" alt="" />
+            </Link>
           </div>
         </div>
       </div>

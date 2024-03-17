@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-center text-red-800 font-semibold text-2xl tracking-wider mb-10"> RAJSURI PRINT & PACK </h1>
         <div className="my-4 max-w-[90%] mx-auto">
           <AspectRatio className='border' ratio={16 / 9}>
-            <iframe className='w-full h-full' src="https://youtu.be/SHNQwkjSZTM?si=HW7aOvQC7OCR76CI" title="sumu - apart | Lo-Fi Hip Hop | NCS - Copyright Free Music" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <iframe className='w-full h-full' src="https://www.youtube.com/embed/SHNQwkjSZTM" title="Rajsuri Print and Pack, Ahmedabad (Gujarat)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </AspectRatio>
         </div>
         <div className="text-justify font-medium tracking-tight lg:max-w-[70%] w-full mx-auto">
@@ -91,11 +91,11 @@ export default function Home() {
               embossed and UV Files, Catering to divers preferences and needs.
             </p>
             <Link className='text-xl' href={'/hospitals'}>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
-              <p className="text-slate-50 font-medium">SAMPLES </p> <img src="/arro.png" alt="" />
-            </div>
+              <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+                <p className="text-slate-50 font-medium">SAMPLES </p> <img src="/arro.png" alt="" />
+              </div>
             </Link>
-            
+
           </div>
 
           <div className="mt-3 w-full flex flex-col align-middle items-center">
@@ -130,11 +130,11 @@ export default function Home() {
               precision for medical imaging needs.
             </p>
             <Link className='text-xl' href={'/x-ray'}>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
-              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
-            </div>
+              <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+                <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
+              </div>
             </Link>
-           
+
           </div>
 
 
@@ -153,11 +153,11 @@ export default function Home() {
               products and services.
             </p>
             <Link className='text-xl' href={'/printing'}>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
-              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
-            </div>
+              <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+                <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
+              </div>
             </Link>
-           
+
           </div>
 
 
@@ -193,11 +193,11 @@ export default function Home() {
               of our clients.
             </p>
             <Link className='text-xl' href={'/calendars'}>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
-              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
-            </div>
+              <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+                <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
+              </div>
             </Link>
-            
+
           </div>
 
         </div>

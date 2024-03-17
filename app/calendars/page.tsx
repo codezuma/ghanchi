@@ -4,18 +4,11 @@ import React from 'react'
 const page = () => {
     const heading = 'Printing Calendars'
     const para = `
-        Lorem Ipsum is simply dummy text of 
-        theprinting and typesetting industry.
-        LoremIpsum has been the industry's
-        standard dummy text ever since the
-        1500s, when an unknown printer took 
-        a galley of type and scrambled it to make
-        a type specimen book. It has survived
-        not only five centuries, but also the leap
-        into electronic typesetting, remaining
-        essentially unchanged.  
+       
+Utilize our expert teams to craft personalized calendars, available in various sizes and shapes. Select your favorite photos to adorn desk calendars, promotional calendars, or personalized ones. Highlight special dates or maintain a routine with our top-quality calendars. Transform your desk into a memorable space adorned with personalized calendars that also promote your brand year-round. Experience each month uniquely with calendars that offer a fresh perspective every month. Alternatively, incorporate names into images using elements like flowers or clouds for a playful touch.
+ 
     `
-    const imgUrl = ['/cal/one.png', '/cal/two.png', '/cal/three.png']
+    const imgUrl = ['/cal/one.jpg', '/cal/two.jpg', '/cal/three.jpg', '/cal/four.jpg', '/cal/five.jpg', '/cal/six.jpg']
     return (
         <div>
             <Individual heading={heading} para={para} img={imgUrl} />

@@ -1,5 +1,11 @@
 import React from 'react'
-import Image from "next/image"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel"
 
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 
@@ -14,22 +20,34 @@ const Individual = ({
     img: string[]
 }) => {
     return (
-        <div className=''>
-            <p className='bg-[#FB2963] py-2 text-center tracking-wide text-2xl font-semibold text-white'>{heading}</p>
-            <div className="my-4 max-w-[80%] mx-auto">
-                <AspectRatio className='border' ratio={16 / 9}>
-                    hello
-                </AspectRatio>
-            </div>
-            <p className='px-4'>{para}</p>
+        <div className='border'>
+            <p className='bg-[#FB2963] py-2 text-center tracking-wide text-2xl font-semibold text-white'>{heading}</p> 
+            <p className='px-4 text-center containerMod'>{para}</p>
             <p className='font-semibold text-white text-center bg-[#002246] py-2 my-6'>SAMPLES</p>
-            <div className='flex w-full lg:max-w-[50%] lg:mx-auto overflow-hidden justify-evenly items-center'>
-                <img className='h-44 w-32 lg:h-60 lg:w-44' src={img[0]} alt="" />
-                <img className='h-56 w-36 lg:h-64 lg:w-56' src={img[1]} alt="" />
-                <img className='h-44 w-32 lg:h-60 lg:w-44' src={img[2]} alt="" />
-            </div>
+            <Carousel className="flex my-10 w-full lg:max-w-[50%] overflow-hidden md:overflow-visible lg:mx-auto justify-evenly items-center">
+                <CarouselContent>
+
+                    {
+
+                        img.map((imageUrl: string, index: number) => {
+                            return (
+                                <CarouselItem key={index} className="basis-1/3 md:basis-1/2 lg:basis-1/3">
+                                    <img src={imageUrl} alt="" />
+                                </CarouselItem>
+                            )
+                        })
+
+                    }
+
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+            </Carousel>
+
         </div>
     )
 }
 
 export default Individual
+
+// className='h-44 w-32 lg:h-60 lg:w-44'

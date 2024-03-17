@@ -4,18 +4,18 @@ import React from 'react'
 const page = () => {
     const heading = 'Aamantran Patrikas'
     const para = `
-        Lorem Ipsum is simply dummy text of 
-        theprinting and typesetting industry.
-        LoremIpsum has been the industry's
-        standard dummy text ever since the
-        1500s, when an unknown printer took 
-        a galley of type and scrambled it to make
-        a type specimen book. It has survived
-        not only five centuries, but also the leap
-        into electronic typesetting, remaining
-        essentially unchanged.  
+       Are you looking to enhance your invitations? Step into the realm of Amantran Patrika printing, where elegance meets customization. Amantran Patrikas offer a timeless appeal, making them the perfect choice for special occasions. With our printing services, you can add a touch of sophistication to your invitations, whether it's for weddings, religious ceremonies, or corporate events.
+    Our attention to detail and commitment to quality ensure that each Amantran Patrika carries the essence and importance of your event, leaving a lasting impression on your guests. 
     `
-    const imgUrl = ['/amantran/one.png', '/amantran/two.png', '/amantran/three.png']
+    const imgUrl = [
+        '/amantran/one.jpg',
+        '/amantran/two.jpg',
+        '/amantran/three.jpg',
+        '/amantran/four.jpg',
+        '/amantran/five.jpg',
+        '/amantran/six.jpg',
+        '/amantran/seven.jpg'
+    ]
     return (
         <div>
             <Individual heading={heading} para={para} img={imgUrl} />
