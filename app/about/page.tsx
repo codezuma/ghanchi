@@ -12,7 +12,7 @@ const Individual = () => {
         </AspectRatio> */}
       </div>
       <p className='px-4 containerMod'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum voluptates a quod architecto placeat culpa obcaecati expedita nobis aspernatur minus id ullam molestias voluptatem amet beatae eius, omnis recusandae in eaque ad modi dolorum illum. Voluptatum quas autem impedit quaerat saepe unde qui repellendus corporis itaque, fugiat culpa molestias odit necessitatibus iusto architecto labore repudiandae ipsum laudantium, nam laboriosam? Ut tenetur amet doloremque impedit officia recusandae, fugiat deleniti atque tempora id voluptatibus nisi velit cupiditate minima sapiente excepturi dicta iusto sequi tempore dignissimos totam neque facere beatae earum? Nemo impedit eos ex quaerat fuga consequatur nobis tempore pariatur suscipit.
+        Rajsuri Print and Pack, established in 2002, has become the premier destination for premium printing services. Our extensive range of offerings includes Hospital Files, Invitations, Calendars, X-ray MRI Covers, Shopping Bags, Box Prints, and much more. Committed to excellence, we guarantee exceptional quality and meticulous craftsmanship. Backed by state-of-the-art technology and a skilled workforce, we ensure precise and professional results for every project. Whether catering to personal or business needs, trust Rajsuri Print and Pack to transform your ideas into reality with unparalleled clarity and sophistication.
       </p>
       <div className='w-full flex-col py-10 flex justify-center items-center bg-[#FB2963]'>
         <div className='h-48 w-40 my-4 rounded-lg overflow-hidden shadow-lg'>

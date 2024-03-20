@@ -118,9 +118,10 @@ export default function Home() {
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
             <div className="flex w-56 place-self-center">
-              <img src="/item21.svg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item22.svg" className="z-20 w-48" alt="" />
-              <img src="/item23.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
+              <img src="/x-ray.png" className="z-20 w-auto" alt="" />
+              {/* <img src="/x-ray/one.jpg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
+              <img src="/x-ray/two.jpg" className="z-20 w-48" alt="" />
+              <img src="/x-ray/three.jpg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" /> */}
             </div>
             <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center gap-1">
               <p className="text-slate-50 text-lg font-semibold text-center">X-RAY/ MRI Covers</p>

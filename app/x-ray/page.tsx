@@ -15,7 +15,7 @@ const page = () => {
 
         Experience the excellence of our CT & MRI Bags, where quality meets innovation to ensure your utmost satisfaction. 
     `
-    const imgUrl = ['/x-ray/one.png', '/x-ray/two.png', '/x-ray/three.png']
+    const imgUrl = ['/x-ray/one.jpg', '/x-ray/two.jpg', '/x-ray/three.jpg']
     return (
         <div>
             <Individual heading={heading} para={para} img={imgUrl} />
