@@ -26,9 +26,7 @@ const Individual = ({
             <p className='font-semibold text-white text-center bg-[#002246] py-2 my-6'>SAMPLES</p>
             <Carousel className="flex my-10 w-full lg:max-w-[50%] overflow-hidden md:overflow-visible lg:mx-auto justify-evenly items-center">
                 <CarouselContent>
-
                     {
-
                         img.map((imageUrl: string, index: number) => {
                             return (
                                 <CarouselItem key={index} className="basis-1/3 md:basis-1/2 lg:basis-1/3">
@@ -36,9 +34,7 @@ const Individual = ({
                                 </CarouselItem>
                             )
                         })
-
                     }
-
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />

@@ -35,13 +35,13 @@ const Footer = () => {
             <Link href='https://www.instagram.com/rajsuriprint.in?igsh=bG5qZGU5dGVjbGNv'>
               <img src="Instagram.svg" className="h-11 w-11 place-self-center" alt="" />
             </Link>
-            <Link href='https://m.indiamart.com/raj-suri-print-pack/'>
-              <img src="indiamart.svg" className="h-11 w-11 place-self-center" alt="" />
-            </Link>
             <Link href={'https://youtube.com/@RajsuriPrint?si=VRhU_YZ783pbcYr4'}>
               <img src="youtube.svg" className="h-11 w-11 place-self-center" alt="" />
             </Link>
-            <Link href={''}>
+            <Link href='https://m.indiamart.com/raj-suri-print-pack/'>
+              <img src="indiamart.svg" className="h-11 w-11 place-self-center" alt="" />
+            </Link>
+            <Link href={'https://web.whatsapp.com/send?phone=8327793516'}>
               <img src="whatsapp.svg" className="h-11 w-11 place-self-center" alt="" />
             </Link>
           </div>

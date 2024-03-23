@@ -1,5 +1,12 @@
 import { ArrowRightIcon } from '@radix-ui/react-icons'
 import { AspectRatio } from "@/components/ui/aspect-ratio"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 import Link from 'next/link'
 
@@ -209,16 +216,63 @@ export default function Home() {
       <div className="bg-rose-500  w-[100%] mt-20 flex flex-col justify-start items-center py-8">
         <h1 className="mt-10 text-xl text-slate-50 font-semibold">What our clients are saying?</h1>
         <img src="/teamwork.png" className="h-44 w-72" alt="" />
-        <h3 className="mt-1 text-center text-slate-50 max-w-[70%]">
-          {
-            `Rajsuri Print has been our go-to for all printing needs at Choudhary Bhupendra Hospital. From hospital files to CT MRI
+        <Carousel className='w-[80%]'>
+          <CarouselContent>
+            <CarouselItem>
+              <h3 className="mt-1 text-center w-[80%] mx-auto text-slate-50 max-w-[70%]">
+                {
+                  `Rajsuri Print has been our go-to for all printing needs at Choudhary Bhupendra Hospital. From hospital files to CT MRI
           covers and marketing materials, their quality and reliability have been outstanding. Highly Recommended!`
-          }
-        </h3>
-        <div className="text-white text-center my-2">
-          <p className="text-sm font-semibold">-Dhukaram Choudhary</p>
-          <p className="text-sm">(Managing Director of CBH Hospital, Bhinmal)</p>
-        </div>
+                }
+              </h3>
+              <div className="text-white text-center my-2">
+                <p className="text-sm font-semibold">-Dhukaram Choudhary</p>
+                <p className="text-sm">(Managing Director of CBH Hospital, Bhinmal)</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <h3 className="mt-1 text-center w-[80%] mx-auto text-slate-50 max-w-[70%]">
+                {
+                  `I am very pleased with the non-woven bag printing services provided by Rajsuri Print for Nutinn Dry Fruits Company. The quality of the prints is excellent, the prices are reasonable, and they deliver on time`
+                }
+              </h3>
+              <div className="text-white text-center my-2">
+                <p className="text-sm font-semibold">-Nutinn Dry Fruits</p>
+                <p className="text-sm">(Gajanand Cashew)</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <h3 className="mt-1 text-center w-[80%] mx-auto text-slate-50 max-w-[70%]">
+                {
+                  `We're consistently impressed with the quality and design of our hospital files provided by Rajsuri Print. They not only meet but exceed our expectations with attractive designs and durable materials. Highly satisfied!`
+                }
+              </h3>
+              <div className="text-white text-center my-2">
+                <p className="text-sm font-semibold">-Apex Hospital, Jalor (Rajasthan)</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <h3 className="mt-1 text-center w-[80%] mx-auto text-slate-50 max-w-[70%]">
+                {
+                  `At Vijaya Metro IVF, Ahmedabad, just as we excel in expert deliveries for children, Rajsuri Print mirrors that expertise in their printing service. They deliver on time, without any hiccups, ensuring a seamless experience every time. Highly recommended!`
+                }
+              </h3>
+              <div className="text-white text-center my-2">
+                <p className="text-sm font-semibold">Vijaya Metro IVF Hospital, Ahmedabad</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <h3 className="mt-1 text-center w-[80%] mx-auto text-slate-50 max-w-[70%]">
+                {
+                  `We recently printed our Amantran Patrika with Rajsuri Print, and the experience was excellent. The printing quality, UV finish, latest designs, packaging, and more were all top-notch. All of this at a very reasonable price. Highly impressed.`
+                }
+              </h3>
+              <div className="text-white text-center my-2">
+                <p className="text-sm font-semibold">- Ghanchi Samaj Trust, Pune</p>
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+        </Carousel>
         <div className='px-8 self-end'>
           <ArrowRightIcon color='white' className='self-end' />
         </div>
