@@ -1,5 +1,8 @@
+'use client'
+
 import { ArrowRightIcon } from '@radix-ui/react-icons'
 import { AspectRatio } from "@/components/ui/aspect-ratio"
+import { type CarouselApi } from "@/components/ui/carousel"
 import {
   Carousel,
   CarouselContent,
@@ -9,9 +12,29 @@ import {
 } from "@/components/ui/carousel"
 
 import Link from 'next/link'
+import { useEffect, useState } from 'react'
 
 
 export default function Home() {
+
+  const [api, setApi] = useState<CarouselApi>()
+  const [current, setCurrent] = useState(0)
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    if (!api) {
+      return
+    }
+
+    setCount(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap() + 1)
+
+    api.on("select", () => {
+      console.log("current")
+      setCurrent(api.selectedScrollSnap() + 1)
+    })
+  }, [api])
+
   return (
     <>
       <div className="containerMod p-4 mb-10">
@@ -221,7 +244,7 @@ export default function Home() {
       <div className="bg-rose-500  w-[100%] mt-20 flex flex-col justify-start items-center py-8">
         <h1 className="mt-10 text-xl text-slate-50 font-semibold">What our clients are saying?</h1>
         <img src="/teamwork.png" className="h-44 w-72" alt="" />
-        <Carousel className='w-[80%]'>
+        <Carousel className='w-[80%]' setApi={setApi}>
           <CarouselContent>
             <CarouselItem>
               <h3 className="mt-1 text-center w-[80%] mx-auto text-slate-50 max-w-[70%]">
@@ -278,6 +301,14 @@ export default function Home() {
             </CarouselItem>
           </CarouselContent>
         </Carousel>
+        <div className="py-2 text-center flex gap-x-1 itemns-center text-sm text-muted-foreground">
+          {/* Slide {current} of {count} */}
+          <div className={`${current === 1? 'bg-[#D9D9D9]': 'bg-white'} rounded-full w-2 h-2`}></div>
+          <div className={`${current === 2? 'bg-[#D9D9D9]': 'bg-white'} rounded-full w-2 h-2`}></div>
+          <div className={`${current === 3? 'bg-[#D9D9D9]': 'bg-white'} rounded-full w-2 h-2`}></div>
+          <div className={`${current === 4? 'bg-[#D9D9D9]': 'bg-white'} rounded-full w-2 h-2`}></div>
+          <div className={`${current === 5? 'bg-[#D9D9D9]': 'bg-white'} rounded-full w-2 h-2`}></div>
+        </div>
         <div className='px-8 self-end'>
           <ArrowRightIcon color='white' className='self-end' />
         </div>
