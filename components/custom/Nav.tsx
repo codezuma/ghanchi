@@ -30,7 +30,7 @@ const Nav = () => {
 
     return (
         <div className='bg-[#002246] px-4'>
-            <div className='flex px-2 py-4 justify-between bg-[#002246] p-3 z-50 containerMod'>
+            <div className='flex px-2 py-4 items-center justify-between bg-[#002246] p-3 z-50 containerMod'>
                 <Link href={'/'}>
                     <img src="/logo.png" className='w-28' alt="" />
                 </Link>
