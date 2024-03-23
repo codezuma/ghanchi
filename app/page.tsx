@@ -118,9 +118,12 @@ export default function Home() {
               We’re experts in printing Aamantran  Patrikas, especially those for temple
               inaugurations, any social events, etc .
             </p>
-            <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
-              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
-            </div>
+            <Link href={'/amantran'}>
+              <div className="py-2 px-5 mt-11 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+                <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
+              </div>
+            </Link>
+
           </div>
 
           <div className=" mt-3 w-full flex flex-col align-middle items-center">
@@ -181,9 +184,11 @@ export default function Home() {
               We also handle printing for packaging boxes, of fering customized solutions tomeet the banding and packaging needs
               of our clients.
             </p>
-            <div className="py-2 px-5 mt-9 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
-              <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
-            </div>
+            <Link href='/printing-box'>
+              <div className="py-2 px-5 mt-9 bg-sky-950 z-30 rounded-sm flex justify-center items-center gap-1">
+                <p className="text-slate-50 font-medium">SAMPLES</p> <img src="/arro.png" alt="" />
+              </div>
+            </Link>
           </div>
 
 
