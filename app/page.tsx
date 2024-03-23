@@ -87,7 +87,7 @@ export default function Home() {
           <div className="mt-3 w-full flex flex-col align-middle items-center">
             <div className="flex w-56 place-self-center">
               <img src="/item01.svg" className="z-10 mb-[-2rem] mr-[-6rem] w-48" alt="" />
-              <img src="/item02.svg" className="z-20 w-48" alt="" />
+              <img src="/cal/two.jpg" className="z-20 w-[120px]" alt="" />
               <img src="/item03.svg" className="z-10 mb-[-2rem] ml-[-6rem] w-48" alt="" />
             </div>
             <div className="py-2 mt-[-2rem] bg-rose-500 w-56 z-30 rounded-md flex justify-center items-center">
