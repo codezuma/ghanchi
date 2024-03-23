@@ -41,7 +41,7 @@ const Footer = () => {
             <Link href='https://m.indiamart.com/raj-suri-print-pack/'>
               <img src="indiamart.svg" className="h-11 w-11 place-self-center" alt="" />
             </Link>
-            <Link href={'https://web.whatsapp.com/send?phone=8327793516'}>
+            <Link href={'https://web.whatsapp.com/send?phone=9636941272'}>
               <img src="whatsapp.svg" className="h-11 w-11 place-self-center" alt="" />
             </Link>
           </div>
