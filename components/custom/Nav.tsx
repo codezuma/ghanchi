@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import {
     Dialog,
     DialogContent,
@@ -23,6 +25,9 @@ import {
 
 
 const Nav = () => {
+
+    const [isPopOverOpen, setIsPopOverOpen] = useState(false)
+
     return (
         <div className='bg-[#002246] px-4'>
             <div className='flex px-2 py-4 justify-between bg-[#002246] p-3 z-50 containerMod'>
@@ -37,17 +42,17 @@ const Nav = () => {
                         </li>
                         <li className='flex items-center text-white gap-3'>
                             <img src="/products.png" className='size-7' alt="" />
-                            <Popover>
-                                <PopoverTrigger>
+                            <Popover open={isPopOverOpen}>
+                                <PopoverTrigger onClick={() => setIsPopOverOpen(!isPopOverOpen)}>
                                     <p>Our Products</p>
                                 </PopoverTrigger>
                                 <PopoverContent className='flex flex-col'>
-                                    <Link className='text-xl' href={'/hospitals'}>- Hospital files</Link>
-                                    <Link className='text-xl' href='/amantran'>- Aamantran Patrikas</Link>
-                                    <Link className='text-xl' href={'/x-ray'}>- X-ray, MRI Covers</Link>
-                                    <Link className='text-xl' href={'/printing'}>- Printed Shopping Bags</Link>
-                                    <Link className='text-xl' href={'/printing'}>- Packing Box Printing</Link>
-                                    <Link className='text-xl' href={'/calendars'} >- Calendars</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/hospitals'}>- Hospital files</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href='/amantran'>- Aamantran Patrikas</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/x-ray'}>- X-ray, MRI Covers</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing'}>- Printed Shopping Bags</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing'}>- Packing Box Printing</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/calendars'} >- Calendars</Link>
                                 </PopoverContent>
                             </Popover>
 
@@ -58,8 +63,8 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className='md:hidden'>
-                    <Dialog>
-                        <DialogTrigger>
+                    <Dialog open={isPopOverOpen}>
+                        <DialogTrigger onClick={() => setIsPopOverOpen(!isPopOverOpen)} >
                             <img src="/ham.png" className='w-7 h-5' alt="" />
                         </DialogTrigger>
                         <DialogContent className='md:hidden bg-[#002246] text-white pt-10'>
@@ -71,12 +76,12 @@ const Nav = () => {
                                             <AccordionItem value="item-1">
                                                 <AccordionTrigger className='flex justify-start'><img src="/products.png" className='mr-3 size-6 text-3xl font-semibold' alt="" /><p className='text-2xl'>Our Products</p></AccordionTrigger>
                                                 <AccordionContent className='flex flex-col ml-8'>
-                                                    <Link className='text-lg' href={'/hospitals'}>- Hospital files</Link>
-                                                    <Link className='text-lg' href='/amantran'>- Aamantran Patrikas</Link>
-                                                    <Link className='text-lg' href={'/x-ray'}>- X-ray, MRI Covers</Link>
-                                                    <Link className='text-lg' href={'/printing'}>- Printed Shopping Bags</Link>
-                                                    <Link className='text-lg' href={'/printing'}>- Packing Box Printing</Link>
-                                                    <Link className='text-lg' href={'/calendars'} >- Calendars</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/hospitals'}>- Hospital files</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href='/amantran'>- Aamantran Patrikas</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/x-ray'}>- X-ray, MRI Covers</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/printing'}>- Printed Shopping Bags</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/printing'}>- Packing Box Printing</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/calendars'} >- Calendars</Link>
                                                 </AccordionContent>
                                             </AccordionItem>
                                         </Accordion>
