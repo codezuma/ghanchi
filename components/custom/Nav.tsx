@@ -37,7 +37,7 @@ const Nav = () => {
 
                 <div className='hidden md:block'>
                     <ul className='flex items-center gap-3'>
-                        <li className='flex items-center text-white gap-3'>
+                        <li onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='flex items-center text-white gap-3'>
                             <img src="/Home.png" className='size-7' alt="" /> <Link href={'/'}><p>Home</p></Link>
                         </li>
                         <li className='flex items-center text-white gap-3'>
@@ -57,7 +57,7 @@ const Nav = () => {
                             </Popover>
 
                         </li>
-                        <li className='flex items-center text-white gap-3'>
+                        <li onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='flex items-center text-white gap-3'>
                             <img src="/About.png" className='size-7' alt="" /> <Link className='text-xl' href='/about'>About Us</Link>
                         </li>
                     </ul>
@@ -70,7 +70,7 @@ const Nav = () => {
                         <DialogContent className='md:hidden bg-[#002246] text-white pt-10'>
                             <div>
                                 <ul>
-                                    <li className='flex items-center'><img src="/Home.png" className='mr-3 size-6' alt="" /><p className='text-2xl'>Home</p></li>
+                                    <li onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='flex items-center'><img src="/Home.png" className='mr-3 size-6' alt="" /><p className='text-2xl'>Home</p></li>
                                     <li className='flex items-center'>
                                         <Accordion className='inline' type="single" collapsible>
                                             <AccordionItem value="item-1">
@@ -86,7 +86,7 @@ const Nav = () => {
                                             </AccordionItem>
                                         </Accordion>
                                     </li>
-                                    <li className='flex items-center'><img src="/About.png" className='mr-3 text-3xl font-semibold size-6' alt="" />
+                                    <li onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='flex items-center'><img src="/About.png" className='mr-3 text-3xl font-semibold size-6' alt="" />
                                         <Link className='text-3xl' href='/about'>About Us</Link></li>
                                 </ul>
                             </div>
