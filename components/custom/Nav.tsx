@@ -63,8 +63,8 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className='md:hidden'>
-                    <Dialog open={isPopOverOpen}>
-                        <DialogTrigger onClick={() => setIsPopOverOpen(!isPopOverOpen)} >
+                    <Dialog open={isPopOverOpen} onOpenChange={setIsPopOverOpen}>
+                        <DialogTrigger>
                             <img src="/ham.png" className='w-7 h-5' alt="" />
                         </DialogTrigger>
                         <DialogContent className='md:hidden bg-[#002246] text-white pt-10'>
