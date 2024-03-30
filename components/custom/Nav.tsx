@@ -51,7 +51,7 @@ const Nav = () => {
                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href='/amantran'>- Aamantran Patrikas</Link>
                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/x-ray'}>- X-ray, MRI Covers</Link>
                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing'}>- Printed Shopping Bags</Link>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing'}>- Packing Box Printing</Link>
+                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing-box'}>- Packing Box Printing</Link>
                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/calendars'} >- Calendars</Link>
                                 </PopoverContent>
                             </Popover>
@@ -80,7 +80,7 @@ const Nav = () => {
                                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href='/amantran'>- Aamantran Patrikas</Link>
                                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/x-ray'}>- X-ray, MRI Covers</Link>
                                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/printing'}>- Printed Shopping Bags</Link>
-                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/printing'}>- Packing Box Printing</Link>
+                                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/printing-box'}>- Packing Box Printing</Link>
                                                     <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-lg' href={'/calendars'} >- Calendars</Link>
                                                 </AccordionContent>
                                             </AccordionItem>
