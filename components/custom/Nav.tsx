@@ -27,6 +27,7 @@ import {
 const Nav = () => {
 
     const [isPopOverOpen, setIsPopOverOpen] = useState(false)
+    const [isPopOverOpenDesktop, setIsPopOverOpenDesktop] = useState(false)
 
     return (
         <div className='bg-[#002246] px-4'>
@@ -37,22 +38,22 @@ const Nav = () => {
 
                 <div className='hidden md:block'>
                     <ul className='flex items-center gap-3'>
-                        <li onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='flex items-center text-white gap-3'>
+                        <li className='flex items-center text-white gap-3'>
                             <img src="/Home.png" className='size-7' alt="" /> <Link href={'/'}><p>Home</p></Link>
                         </li>
                         <li className='flex items-center text-white gap-3'>
                             <img src="/products.png" className='size-7' alt="" />
-                            <Popover open={isPopOverOpen}>
-                                <PopoverTrigger onClick={() => setIsPopOverOpen(!isPopOverOpen)}>
+                            <Popover open={isPopOverOpenDesktop} onOpenChange={setIsPopOverOpenDesktop}>
+                                <PopoverTrigger>
                                     <p>Our Products</p>
                                 </PopoverTrigger>
                                 <PopoverContent className='flex flex-col'>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/hospitals'}>- Hospital files</Link>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href='/amantran'>- Aamantran Patrikas</Link>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/x-ray'}>- X-ray, MRI Covers</Link>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing'}>- Printed Shopping Bags</Link>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/printing-box'}>- Packing Box Printing</Link>
-                                    <Link onClick={() => setIsPopOverOpen(!isPopOverOpen)} className='text-xl' href={'/calendars'} >- Calendars</Link>
+                                    <Link onClick={() => setIsPopOverOpenDesktop(false)} className='text-xl' href={'/hospitals'}>- Hospital files</Link>
+                                    <Link onClick={() => setIsPopOverOpenDesktop(false)} className='text-xl' href='/amantran'>- Aamantran Patrikas</Link>
+                                    <Link onClick={() => setIsPopOverOpenDesktop(false)} className='text-xl' href={'/x-ray'}>- X-ray, MRI Covers</Link>
+                                    <Link onClick={() => setIsPopOverOpenDesktop(false)} className='text-xl' href={'/printing'}>- Printed Shopping Bags</Link>
+                                    <Link onClick={() => setIsPopOverOpenDesktop(false)} className='text-xl' href={'/printing-box'}>- Packing Box Printing</Link>
+                                    <Link onClick={() => setIsPopOverOpenDesktop(false)} className='text-xl' href={'/calendars'} >- Calendars</Link>
                                 </PopoverContent>
                             </Popover>
 
